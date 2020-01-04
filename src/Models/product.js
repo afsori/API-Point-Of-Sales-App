@@ -80,15 +80,8 @@ module.exports = {
     return new Promise((resolve, reject) => {
       const body = req.body;
       connection.query(
-        "INSERT INTO products SET name=?,description=?, category=?, image=?,price=?,quantity=?",
-        [
-          body.name,
-          body.description,
-          body.image,
-          body.category,
-          body.price,
-          body.quantity
-        ],
+        "INSERT INTO products SET name=?,description=?, image=?,price=?,quantity=?",
+        [body.name, body.description, body.image, body.price, body.quantity],
         (err, response) => {
           if (!err) {
             resolve(response);

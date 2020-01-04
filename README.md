@@ -1,7 +1,5 @@
 <h1 align="center">RESTful API for Point Of Sales App</h1>
 
-# Overview
-
 ## Introduction
 
 Point of Sale API is an API that allows users to access systems such as product items and product quantities. The Point of Sales API also makes it possible to create, update and delete products.
