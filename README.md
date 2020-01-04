@@ -157,5 +157,3 @@ You can import file **`database.sql`** to **phpmyadmin**.
 ### Support
 
 For API support, please email afsoryafsor@gmail.com
-
-# API-Point-Of-Sales-App
