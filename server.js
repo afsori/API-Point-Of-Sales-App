@@ -1,5 +1,4 @@
 const cors = require("cors");
-server.use(cors());
 
 require("dotenv/config");
 const express = require("express");
@@ -10,6 +9,7 @@ const server = express();
 const port = process.env.PORT;
 const nodeEnv = "Development";
 // ||'8080'
+server.use(cors());
 
 server.listen(port, () => {
   console.log(`Server is running in port ${port} in ${nodeEnv} Mode`);
